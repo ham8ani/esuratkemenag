@@ -3,7 +3,16 @@
     Data Arsip Surat
   </div>
   <div class="card-body">
+  <center>
   	<a href="?halaman=surat_masuk&hal=tambahdata" class="btn btn-dark mb-3" >Tambah Data</a>
+
+	  
+	 
+	<td>Dari: <input type="date" name="dari_tanggal" required="required"> </td>
+	  <td>Sampai: <input type="date" name="sampai_tanggal" required="required"></td>
+	  <a><input type="submit" class="btn btn-dark mb-3" name="filter" value="Cari Data"></a> 
+	  </center>
+
     <table class="table table-borderd table-hovered table-striped">
     	<tr>
     		<th>No</th>
