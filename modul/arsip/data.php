@@ -1,9 +1,12 @@
 <div class="card mt-3">
   <div class="card-header bg-dark text-white ">
-    Data Arsip Surat
+    Data Surat Masuk
+
+
   </div>
-  <div class="card-body">
-  	<a href="?halaman=surat_masuk&hal=tambahdata" class="btn btn-dark mb-3" >Tambah Data</a>
+
+    <div class="card-body">
+  	<a href="?halaman=surat_masuk&hal=tambahdata" class="btn btn-dark mb-3" >Tambah Surat</a>
     <table class="table table-borderd table-hovered table-striped">
     	<tr>
     		<th>No</th>
